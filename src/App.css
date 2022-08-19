@@ -1,0 +1,32 @@
+body{
+  background-color: #999;
+}
+.App{
+  max-width: 70rem;
+  margin: 10rem auto;
+  
+}
+.char{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.element{
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 1px 3px 5px #555;
+}
+.page{
+  border: 5px solid #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img{
+  width: 30rem;
+  
+  
+}
